@@ -1,84 +1,38 @@
-Project Name
-DeepStudy — Virtual Classrooms, Real Mastery
+# DeepStudy — Virtual Classrooms, Real Mastery
 
-Description
-DeepStudy — Virtual Classrooms, Real Mastery
-Image
+## 🚀 Overview
 
-🤯 Problem Statement
-251 million. That's the staggering number of children and youth currently out of school worldwide (UNESCO). In low-income countries, 1 in 3 children lacks access to education — a stark reminder that quality learning remains a privilege, not a right.
+DeepStudy is an AI-powered learning platform that recreates real classroom experiences online.
+Built with **Azure AI** and **Semantic Kernel**, it helps students learn through conversation, collaboration, and personalized feedback.
 
-Our research (40+ parent/student interviews and 60+ academic papers) reveals a critical divide: students from disadvantaged backgrounds miss three key pillars of effective learning — personalized instruction, peer collaboration, and targeted weakness analysis. Studies prove that methods incorporating these elements (e.g., peer-driven feedback) double test score improvements compared to passive "watch-and-answer" models.
+---
 
-Yet 90% of existing AI tutors perpetuate outdated, one-way teaching — overwhelming students with information rather than fostering active thinking. This gap perpetuates inequality and wastes the potential of millions.
+## 💡 Features
 
-DeepStudy challenges this status quo. Powered by Azure AI services, AI agents, and Semantic Kernel, our platform recreates authentic classroom dynamics through three core innovations: personalized teaching, intelligent peer collaboration, and adaptive weakness diagnostics. We're transforming education from passive memorization to active thinking — because every student deserves cognitive tools, not just information.
+* **Socratic Teaching** — The teacher agent asks guiding questions, not just gives answers.
+* **Peer Collaboration** — Multiple AI peers simulate group discussions.
+* **Adaptive Learning** — Detects weaknesses and offers personalized exercises.
+* **End-to-End Flow** — Teaching → Discussion → Review → Practice.
 
-🤩 Features
-💡
-What makes DeepStudy different?
+---
 
-Authentic Classroom Dynamics
+## ⚙️ Tech Stack
 
-The first AI tutor to fully replicate offline learning cycles: Teaching → Group Discussion → Reviewing → Practicing
+* **Backend:** FastAPI, WebSocket, PostgreSQL
+* **Framework:** Semantic Kernel
+* **Cloud:** Azure OpenAI, Blob Storage, Cosmos DB, Redis, AI Search, Document Intelligence
 
-Socratic Teaching Method
+---
 
-Our Teacher Agent challenges students with guided questioning instead of direct answers, developing:
+## 🧠 How It Works
 
-Critical thinking | Logical reasoning | Knowledge self-construction
+1. Upload learning materials.
+2. System parses and generates a custom lesson plan.
+3. AI Teacher and Peer Agents conduct interactive sessions.
+4. Assistant Agent summarizes and gives targeted practice.
 
-Multi-dimensional Peer Simulation
+---
 
-3 distinct agent personalities replicate real classroom diversity
+## 🖤 Credits
 
-Adaptive Learning Experience
-
-Analyze students' weaknesses and conduct special exercises based on their classroom performance and lesson‘s key concepts.
-
-💻 Architecture
-Technical Architecture
-Image
-
-We used FastAPI, FastAPI WebSocket, and PostgreSQL for the backend, and Semantic Kernel as the framework.
-
-Thanks to the hackathon organizer — Semantic Kernel makes agent construction easy and provides a rich set of APIs. Its plug-and-play kernel functions allow us to dynamically assign tasks to agents via function calling.
-
-For cloud services, we used Azure OpenAI, Azure Blob Storage, Azure Cosmos DB, Azure Redis Cache, Azure Document Intelligence, Azure AI Search, and many more.
-
-Flowchart
-Image
-
-Intelligent File Parsing
-
-Upon uploading personal study materials, the system utilizes Azure Document Intelligence to parse documents.
-Our Planner Agent then generates a personalized curriculum outline based on both the document content and the user's learning profile.
-Stage 0: Lesson Preparation
-
-The Lesson Prep Agent prepares teaching materials using:
-The mini-lesson outline
-Potentially relevant content from our built-in knowledge base
-The Checker Agent (modeled as an expert educator with years of experience in Socratic teaching methods) reviews and approves the final teaching script.
-Stage 1: Teaching
-
-The Teacher Agent delivers instruction by strictly following the approved teaching script.
-Each teaching interaction requires the Teacher Agent to reference the script, ensuring:
-Focused content delivery
-Prevention of tangential discussions
-Consistent teaching quality
-Stage 2: Group Discussion
-
-Multiple specialized agents (each with distinct personalities and roles) engage the user in:
-Group discussions
-Peer-to-peer learning scenarios
-Interactive knowledge application exercises
-Stage 3: Summary and Practice
-
-The Assistant Agent generates a comprehensive learning report featuring:
-Key course concepts review
-Identified knowledge weaknesses
-Personalized improvement recommendations
-Additionally, it creates customized practice materials tailored to the user's specific needs.
-🌎 Our Impact
-So far, We contacted the Senator and Subcommittee Co-Chair at the Halton District School Board in Ontario, CA, and tested the product with 60 HDSB students. Over 90% of them said the product was effective and useful, and expressed strong interest in continuing to use it in the future.
-
+Created during the **Microsoft AI Agents Hackathon** using Azure AI and Semantic Kernel.
