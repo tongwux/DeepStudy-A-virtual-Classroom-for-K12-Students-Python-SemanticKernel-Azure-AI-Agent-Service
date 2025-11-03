@@ -1,5 +1,7 @@
 # DeepStudy — Virtual Classrooms, Real Mastery
 
+# Submission refer to https://github.com/microsoft/AI_Agents_Hackathon/issues/698
+
 ## 🚀 Overview
 
 DeepStudy is an AI-powered learning platform that recreates real classroom experiences online.
@@ -36,3 +38,4 @@ Built with **Azure AI** and **Semantic Kernel**, it helps students learn through
 ## 🖤 Credits
 
 Created during the **Microsoft AI Agents Hackathon** using Azure AI and Semantic Kernel.
+
